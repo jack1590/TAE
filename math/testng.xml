@@ -1,0 +1,22 @@
+<suite name="Math Suite" verbose="1">
+	<test name="Basic Operations Test">
+		<groups>
+			<run>
+				<include name="basicOperations" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.globant.ta.math.MathTest" />
+		</classes>
+	</test>
+	<test name="Trigonometric Operations Test">
+		<groups>
+			<run>
+				<include name="trigonometricOperations" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.globant.ta.math.MathTest" />
+		</classes>
+	</test>
+</suite>
