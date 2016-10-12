@@ -1,0 +1,7 @@
+<suite name="Wikipedia Suite" verbose="1">
+	<test name="Complete flow">
+		<classes>
+			<class name="com.globant.ta.wordreference.WordReferenceTest" />
+		</classes>
+	</test>
+</suite>
